@@ -1,0 +1,9 @@
+---
+slug: :supprise_video_from_world
+depends:
+  mikutter: '4.1'
+  plugin: []
+version: '0.1'
+author: Akkiesoft
+name: supprise_video_from_world
+description: '投稿ボックスのメッセージを世界のサプライズ動画風に整形するプラグイン'
