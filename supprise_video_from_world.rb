@@ -19,7 +19,7 @@ Plugin.create :supprise_video_from_world do
 
     on_create_supprise_video_from_world do |opt, send_now|
         output = ""
-        postbox = Plugin[:gtk].widgetof(opt.widget).widget_post
+        postbox = Plugin[:gtk3].widgetof(opt.widget).widget_post
         message = postbox.buffer.text.split("\n")
         message.each do |line|
             output += line + "！（" + line + "！）\n"
